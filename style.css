@@ -1,6 +1,79 @@
-/* Part 1: Els 3 punts de la part 1 estan 
+/* Per tal de facilitar la posterior correcció de
+l'exercici, i sent conscient d'alguna inevitable
+mala praxi, aniré desenvolupant de manera seqüencial
+tots els punts de l'enunciat */
+
+/* PART 1 INSERCIO: Els 3 punts de la Part 1 estan 
 desenvolupats a index.html */
 
+/* PART 2: SELECTORS*/
+/*1.4 Defineix un exemple de selector per a cadascun dels
+que apareixen en aquest llista*/
+
+/* Unics 1 Universal*/
 * {
   background-color: aqua;
 }
+
+/* Unics 2 Per classe */
+.nomClase {
+  color: white;
+}
+
+/* Unics 3 Per nom d'element */
+div {
+  color: white;
+}
+
+/* Unics 4 Per atribut */
+a[target] {
+  color: white;
+}
+
+/* Unics 5 Pseudoclases dinàmiques */
+a:hover {
+  color: white;
+}
+
+/* Unics 6 Pseudoelements */
+article ::first-letter {
+  color: white;
+}
+
+/* Unics 7 Pseudoclases estructurals */
+p:nth-child(4) {
+  color: white;
+}
+
+/* Unics 8 Per ID */
+#nomID {
+  color: white;
+}
+
+/* Combinacions 9 Selectors descendents */
+div p {
+  color: yellow;
+}
+
+/* Combinacions 10 Selector de fills*/
+div > p {
+  color: yellow;
+}
+
+/* Combinacions 11 Selector germans adjacents */
+div + p {
+  color: yellow;
+}
+
+/* Combinacions 12 Selector general de germans */
+div ~ p {
+  color: yellow;
+}
+
+/* Combinacions 13 Selector múltiple */
+h1,
+h2,
+h3 {
+  color: yellow;
+}
+/* final PART 2: SELECTORS*/
