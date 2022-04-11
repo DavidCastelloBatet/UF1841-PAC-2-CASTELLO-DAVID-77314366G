@@ -137,4 +137,42 @@ icona de font-awesom */
 }
 /* final Contingut Imatges */
 
+/* Contenidors Propietats */
+.pare,
+.fill {
+  color: black;
+  padding: 5px;
+}
+.pare {
+  /* 10.- Defineix la posició per a un contenidor */
+  position: relative;
+  /* 12.-Assignar l'amplada d'un contenidor */
+  width: 300px;
+  /* 13.- Assignar l'alçada d'un contenidor */
+  height: 300px;
+  /* 14 - 15 - 16 gruix - estil - color contorn, definit
+  amb aquest ordre */
+  border: 3px dotted blue;
+  /* 17.- Defineix contorns arrodonits */
+  border-radius: 15px;
+  /* 19.- Defineix una imatge de fons */
+  background-image: url(./img/pollet.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.fill {
+  position: absolute;
+  top: 70px;
+  right: 15px;
+  border: 1px solid red;
+  /* 11.- Defineix la profunditat d'un contenidor.
+  Es crea com una pila d'elements. Si li donem un numero 
+  negatiu quedara darrera del pare */
+  z-index: 10;
+  /* 18.- Defineix un color de fons*/
+  background-color: aliceblue;
+}
+/* final Contenidors Propietats */
+
 /* final PART 3: REGLES */
