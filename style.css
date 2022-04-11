@@ -175,4 +175,53 @@ icona de font-awesom */
 }
 /* final Contenidors Propietats */
 
+/* Contenidors Tipus */
+/* 20.- Defineix una direccio de text */
+.reves {
+  direction: rtl;
+}
+/* 21.- Fer desapareixer la linea inferior dels enllaços */
+.senseLinea {
+  text-decoration: none;
+}
+/* 22.- Canviar el marcador d'una llista a nombres romans */
+.numerosRomans {
+  list-style-type: upper-roman;
+}
+
+th,
+td {
+  border: 1px solid;
+}
+
+td {
+  text-align: center;
+  vertical-align: center;
+  /* 23.- Defineix una amplada de files */
+  width: 200px;
+  /* 24.- Defineix una alçada de files */
+  height: 40px;
+}
+
+table {
+  /* 25.- Defineix una separacio entre cel.les */
+  border-spacing: 10px;
+}
+
+tfoot {
+  /* 26.- Defineix una posicio per el peu de la taula */
+  caption-side: bottom;
+}
+
+.imatgeNoRepetir {
+  width: 500px;
+  height: 200px;
+  background-color: grey;
+  background-image: url(./img/pollet.webp);
+  background-size: contain;
+  /* 27.- Definir imatge de fons que no es repeteixi */
+  background-repeat: no-repeat;
+}
+/* final Contenidors Tipus */
+
 /* final PART 3: REGLES */
