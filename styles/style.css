@@ -156,7 +156,7 @@ icona de font-awesom */
   /* 17.- Defineix contorns arrodonits */
   border-radius: 15px;
   /* 19.- Defineix una imatge de fons */
-  background-image: url(./img/pollet.webp);
+  background-image: url(../img/pollet.webp);
   background-size: cover;
   background-position: center;
 }
@@ -217,7 +217,7 @@ tfoot {
   width: 500px;
   height: 200px;
   background-color: grey;
-  background-image: url(./img/pollet.webp);
+  background-image: url(../img/pollet.webp);
   background-size: contain;
   /* 27.- Definir imatge de fons que no es repeteixi */
   background-repeat: no-repeat;
@@ -294,5 +294,150 @@ tfoot {
   column-rule-color: blue;
 }
 /* final Contenidors i continguts */
+
+/* Efectes */
+.amaga,
+.oculta,
+.opac,
+.transparent {
+  width: 200px;
+  height: 200px;
+}
+
+.amaga {
+  background-color: red;
+  /* 38.- Amaga un element - no es veu i desapareix de l'espai que ocupa*/
+  display: none;
+}
+
+.oculta {
+  background-color: green;
+  /* 39.- Oculta un element - no es veu, pero conserva l'espai*/
+  visibility: hidden;
+}
+
+.opac {
+  background-color: blue;
+  /* 40.- Fes que un element sigui un 50% opac */
+  opacity: 0.5;
+}
+
+.transparent {
+  /* 41.- Estableix una transparencia */
+  background-color: rgba(100, 150, 200, 0.3);
+}
+
+.resize {
+  color: black;
+  border: 2px solid;
+  padding: 20px;
+  width: 300px;
+  /* 42.- Canvia la grandaria horitzontal d'un element */
+  resize: horizontal;
+  overflow: auto;
+}
+
+.canviCursor {
+  color: black;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(156, 171, 228);
+}
+
+.canviCursor:hover {
+  /* 43.- Fes que es canvii el cursor */
+  cursor: pointer;
+}
+
+.rotarElement {
+  color: black;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
+.rotarElement:hover {
+  /* 44.- Rota un element */
+  transform: rotate(45deg);
+}
+
+.rotarElementZ {
+  color: black;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+
+.rotarElementZ:hover {
+  /* 45.- Rota un element en l'eix Z*/
+  transform: rotateZ(90deg);
+}
+
+.transicions {
+  color: black;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  background: aquamarine;
+  /* 46.- Fes que una transicio duri com a minim 4 segons */
+  transition: width 4s;
+  /* 47.- Retarda una transicio 2s */
+  transition-delay: 2s;
+}
+
+.transicions:hover {
+  width: 300px;
+}
+
+.laRosalia {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  /* 48.- Fes una transformacio amb transicio */
+  transition: width 2s, height 2s, transform 5s;
+}
+
+.laRosalia:hover {
+  width: 300px;
+  height: 300px;
+  background: green;
+  transform: rotate(360deg);
+}
+
+/* 49.- Genera una animacio */
+.animacio {
+  color: white;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+
+/* 49.- Genera una animacio */
+@keyframes example {
+  from {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+  }
+  to {
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    color: black;
+  }
+}
+/* final Efectes*/
+
+/* Condicionals - Media Queries */
+/* Anar a la fulla styleMedia.css*/
 
 /* final PART 3: REGLES */
