@@ -17,7 +17,8 @@ desenvolupats a index.html */
 /*1.4 Defineix un exemple de selector per a cadascun dels
 que apareixen en aquest llista*/
 /* NOTA: posare combinacions "poc habituals" de selectors 
-per tal de que no molestin mes endavant*/
+per tal de que no molestin mes endavant, que NO tindrán
+un equivalent real al HTML */
 
 /* Unics 1 Universal*/
 * {
@@ -94,6 +95,7 @@ h3 {
 }
 /* final PART 2: SELECTORS*/
 
+/* A partir d'aqui CSS i HTML concorda*/
 /* PART 3: REGLES */
 
 /* Continguts Font */
