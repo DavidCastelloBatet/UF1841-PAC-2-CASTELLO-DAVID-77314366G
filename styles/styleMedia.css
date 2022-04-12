@@ -7,8 +7,7 @@ quan la pantalla tingui una grandaria menor de 600px */
     font-size: 12px;
   }
   h1 {
-    color: white;
-    background-color: blue;
+    background-color: white;
   }
 
   img {
@@ -26,6 +25,6 @@ quan la pantalla tingui una grandaria menor de 600px */
     background-color: green;
   }
   img {
-    width: 100px;
+    width: 150px;
   }
 }
